@@ -162,8 +162,8 @@ const techStack = {
       progressPercentage: "30%"
     },
     {
-      Stack: "Basic Linux, Identifying basic cyberattacks",
-      progressPercentage: "30%"
+      Stack: "Basic Linux, Identifying basic cyberattacks, Malware analysis",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -223,7 +223,19 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Report",
-          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
+          url: "https://github.com/trinpce192008/Cybersecurity-Core/tree/main/(IAM302)%20Malware%20Analysis%20and%20Reverse%20Engineering"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/FPT.jpg"),
+      projectName: "Other Project",
+      projectDesc: "Other projects during the course of study. Related to object-oriented programming skills, digital forensics, and computer networks.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/trinpce192008/Cybersecurity-Core/"
         }
         //  you can add extra buttons here.
       ]
@@ -235,7 +247,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Report",
-          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
+          url: "https://github.com/trinpce192008/Cybersecurity-Core/tree/56a2ea88f80d2c775e5cee4d5da1f907a25c1694/(OSP201)%20Open%20Source%20Platform%20and%20Network%20Administration/Final_Report_Monit"
         }
       ]
     }
@@ -286,16 +298,28 @@ const achievementSection = {
         }
       ]
     },
-
+{
+      title: "CertNexus Certified Ethical Emerging Technologist",
+      subtitle:
+        "Emerging technologies, ethics, AI, and responsible digital transformation",
+      image: require("./assets/images/cousera.png"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://coursera.org/share/bb1a1bf8f5db66420b5da566eff629de"
+        }
+      ]
+    },
+    
     {
       title: "Other Cousera Certificates",
-      subtitle: "View my profile, other certificates on Cousera",
+      subtitle: "View my profile, more 5+ certificates on Cousera",
       image: require("./assets/images/cousera.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
+          name: "View Profile",
           url: "https://www.coursera.org/user/6bcd0144ee666f3372fc89c7557eeb34"
         }
       ]
