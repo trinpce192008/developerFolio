@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Nguyen Pham Tri",
-  title: "Hi all, I'm Tri",
+  title: "Hi all, I'm Nguyen Pham Tri",
   subTitle: emoji(
-    "This website contains all the information about me! Thank you for visiting!"
+    " Student at FPT University. This website contains all the information about me! Thank you for visiting!"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/trinpce192008",
   linkedin: "https://www.linkedin.com/in/trinpce192008",
   gmail: "trinp.ce192008@gmail.com",
-  gitlab: "https://gitlab.com/",
-  facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/",
-  stackoverflow: "https://stackoverflow.com/",
+  // gitlab: "https://gitlab.com/",
+  // facebook: "https://www.facebook.com/",
+  // medium: "https://medium.com/",
+  // stackoverflow: "https://stackoverflow.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -79,7 +79,7 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-java"
     },
     // {
     //   skillName: "reactjs",
@@ -98,8 +98,8 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-npm"
     // },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     // {
     //   skillName: "aws",
@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "FPT HCM University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/FPT.jpg"),
       subHeader: "Bachelor of Information Security",
       duration: "2023 - Present",
       desc: "I am currently a third-year student.",
@@ -217,7 +217,7 @@ const bigProjects = {
   subtitle: "Several projects have helped me develop these skills.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/FPT.jpg"),
       projectName: "Analysis Redline Stealer malware",
       projectDesc: "Analyze the RedLine and Lumma Stealer malware to identify malicious behavior and preventative measures.",
       footerLink: [
@@ -229,7 +229,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/FPT.jpg"),
       projectName: "Monit",
       projectDesc: "Researching service monitoring systems with Monit",
       footerLink: [
@@ -256,12 +256,12 @@ const achievementSection = {
       title: "CyberOps Associate",
       subtitle:
         "Cisco's course on basic computer networking.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/cisco_logo.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
+          url: "https://drive.google.com/drive/folders/1TKUQm7vEj7UrwvOAxlBDJXrtO0-32v3f?usp=sharing"
         }
         // {
         //   name: "Award Letter",
@@ -277,26 +277,26 @@ const achievementSection = {
       title: "Object Oriented Programming in Java",
       subtitle:
         "Object Oriented Programming Java Coursera",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/cousera.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
+          url: "https://drive.google.com/drive/folders/1TKUQm7vEj7UrwvOAxlBDJXrtO0-32v3f?usp=sharing"
         }
       ]
     },
 
     {
-      title: "Nothing Here",
-      subtitle: "Nothing",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Other Cousera Certificates",
+      subtitle: "View my profile, other certificates on Cousera",
+      image: require("./assets/images/cousera.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
+          url: "https://www.coursera.org/user/6bcd0144ee666f3372fc89c7557eeb34"
         }
       ]
     }
