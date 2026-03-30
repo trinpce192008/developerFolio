@@ -164,6 +164,18 @@ const techStack = {
     {
       Stack: "Basic Linux, Identifying basic cyberattacks, Malware analysis",
       progressPercentage: "40%"
+    },
+    {
+      Stack: "Foreign language: English (Basic)",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Teamwork",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Presentation",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
