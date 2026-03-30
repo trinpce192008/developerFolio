@@ -23,7 +23,7 @@ const greeting = {
   username: "Nguyen Pham Tri",
   title: "Hi all, I'm Tri",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "This website contains all the information about me! Thank you for visiting!"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -57,7 +57,7 @@ const skillsSection = {
     emoji("⚡ Network Security and Traffic Analysis"),
     emoji(
       "⚡ Linux System Security"
-    )
+    ),
     emoji("⚡ Incident Response and Threat Detection")
   ],
 
@@ -112,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: "fab fa-docker"
@@ -223,7 +223,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Report",
-          url: "http://saayahealth.com/"
+          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -235,7 +235,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Report",
-          url: "http://nextu.se/"
+          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
         }
       ]
     }
@@ -255,13 +255,13 @@ const achievementSection = {
     {
       title: "CyberOps Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Cisco's course on basic computer networking.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
         }
         // {
         //   name: "Award Letter",
@@ -276,27 +276,27 @@ const achievementSection = {
     {
       title: "Object Oriented Programming in Java",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "subtitle: "Object Oriented Programming Java Coursera",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Nothing Here",
+      subtitle: "Nothing",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://drive.google.com/drive/folders/1TUC7FYhyS0QSbYVIrrIf7kFqRoHJWTjF?usp=sharing"
         }
       ]
     }
