@@ -276,7 +276,7 @@ const achievementSection = {
     {
       title: "Object Oriented Programming in Java",
       subtitle:
-        "subtitle: "Object Oriented Programming Java Coursera",
+        "Object Oriented Programming Java Coursera",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
